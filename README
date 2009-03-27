@@ -14,7 +14,11 @@ This version of paperclipped adds:
 
 ###Installation
 
-To install paperclipped, just run 
+To install paperclipped, download it to your radiant project
+
+	git clone git://github.com/kbingman/paperclipped.git <project-root>/vendor/extensions/paperclipped
+
+where <project-root> is where you have radiant project installed and then just run 
  
 	rake production db:migrate:extensions
 	rake production radiant:extensions:paperclipped:update
